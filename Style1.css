@@ -1,0 +1,106 @@
+h1
+{
+    color:  #756AB6;
+    font-size: 50px;
+    text-align: center;
+    font-style: normal ;
+    text-shadow: 3px 3px #E8E2E2;
+}
+
+body
+{
+    background: #cfc1fa;
+}
+
+ul
+{
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+section
+{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid white;
+}
+
+.imgs
+{
+    object-position: left;
+    width: 135px;
+    height: 120px;
+    float: right;
+}
+
+section#ftSec
+{
+    background: #AC87C5;
+}
+
+section#sdSec
+{
+    background: #d2a3dd;
+}
+
+section#trdSec
+{
+    background: #b991e9;
+}
+
+section#lastSec
+{
+    background: rgb(202, 159, 255);
+}
+
+.About
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card
+{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 320px;
+    border: 2px solid white;
+}
+
+.card img
+{
+    float: left;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+footer
+{
+    color: white;
+    font-weight: bold;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeDbKKzA_cX5Uf7qn6cShL0J_8638McbBQqA&usqp=CAU");
+    padding: 15px;
+    border-radius: 200px;
+}
+
+
+
+
+
